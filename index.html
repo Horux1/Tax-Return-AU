@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header id="cabecera" class="header">
+
+        <a class="logo" href="#">AU-TAXCALCULATOR</a>
+
+
+        <ul class="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#tax">TaxCalculator</a></li>
+            <li><a href="">Contact</a></li>
+            <!-- <li><a href="">xx</a></li>
+                <li><a href="">xx</a></li>
+                <li><a href="">xx</a></li> -->
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"> </div>
+
+    </header>
+
+    <section class="hero">
+
+
+        <div class="slider-box" id="titulo">
+
+            <div class="titu">
+                <div class="hero-titulos">
+                    <h1 class="titulo">Estimate Your <spam class="h1">Australian Taxes</spam> with Confidence</h1>
+                    <h2 class="subtitulo">An Informative <spam class="h2">Tax Calculator</spam> for Australia: Get a
+                        <spam class="h2">Quick</spam>and Reliable Estimation of Your <spam class="h2">Tax Liability
+                        </spam>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hero2">
+        <div id="slider">
+            <div class="slider-box2" id="about">
+                <div class="cont">
+                    <div class="text">
+                        <h1 class="about">About</h1>
+                        <p class="parrafo">Quick and reliable Australian Tax Calculator for estimating your tax
+                            obligations.
+                            Not
+                            a replacement
+                            for
+                            professional advice. Feel free to reach out to us with any questions or suggestions.</p>
+                        <div class="boton">
+                            <a href="#tax"><button type="button">Try Now</button></a>
+                        </div>
+                        <div class="divider2"></div>
+                    </div>
+
+                    <div class="direccion">
+                        <a href="#tax"><i class="ri-arrow-left-s-line"></i></a>
+                        <a href="#tax"><i class="ri-arrow-right-s-line"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="slider-box3" id="tax">
+
+                <div class="tax">
+                    <form>
+                        <div id="tax-form">
+                            <label class="frecuencia" for="paymentFrequency"><strong>Payment Frequency:
+                                </strong></label>
+                            <select id="paymentFrequency">
+                                <option value="weekly">weekly</option>
+                                <option value="fortnightly">fortnightly</option>
+                                <option value="monthly">monthly</option>
+                            </select>
+                        </div>
+
+                        <div id="tax-form">
+                            <label class="label" for="incomeInput"><strong>Income Amount: </strong></label>
+                            <input type="number" id="incomeInput" placeholder="Enter Amount" required>
+                        </div>
+
+                        <div class="botones">
+                            <button type="button" id="calculate-btn">Calculate</button>
+                            <button class="reset" type="reset" id="reset-btn">Reset</button>
+
+                        </div>
+                    </form>
+
+                    <div id="result"></div>
+                </div>
+
+                <div class="text2">
+                    <h1 class="about">Using the Australian Tax Calculator</h1>
+                    <p class="parrafo"><strong>Payment Frequency:</strong> Choose how often you get paid, weekly, every
+                        two
+                        weeks
+                        (fortnightly), or monthly.
+                        <br><strong>Enter Income Amount:</strong> Input your earnings in the <strong>"Payment
+                            Frequency"</strong> field.
+                        <br><strong>Calculate Tax:</strong> Click <strong>"Calculate"</strong> to estimate your taxes.
+                        <br><strong>Review Estimate:</strong> See your approximate tax based on payment frequency and
+                        income.
+                        <br><strong>Reset:</strong> Hit <strong>"Reset"</strong> to start over.
+                        <br>
+                        <br>Please note, this is an estimate tool. Consult a tax professional for accuracy.
+                    </p>
+                    <div class="divider2"></div>
+                </div>
+                <div class="direccion">
+                    <a href="#about"><i class="ri-arrow-left-s-line"></i></a>
+                    <a href="#about"><i class="ri-arrow-right-s-line"></i></a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+
+        <div class="segundo">
+
+
+            <div class="icon-container2">
+                <p>Contact:
+                    <a href="https://github.com/Horux1" target="_blank">
+                        <img class="icono2" src="img/GitHub_Logo_White.png" alt="github">
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sebastian-cortes-higuera-904866249/" target="_blank">
+                        <img class="icono" src="img/LI-In-Bug.png" alt="linkedin">
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="copy">
+            <h5> &copy; 2022 Sebcoh </h5>
+        </div>
+
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

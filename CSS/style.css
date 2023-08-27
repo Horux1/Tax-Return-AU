@@ -98,7 +98,7 @@ body {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: url("…/…/img/fondosy.jpg") no-repeat center/cover;
+    background: url("img/fondosy.jpg") no-repeat center/cover;
     position: relative;
     display: flex;
     /* grid-template-columns: repeat(2, 1fr); */
@@ -112,7 +112,7 @@ body {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: url("…/…/img/fondo.jpg") no-repeat center/cover;
+    background: url("img/fondo.jpg") no-repeat center/cover;
     position: relative;
     display: flex;
     /* grid-template-columns: repeat(2, 1fr); */

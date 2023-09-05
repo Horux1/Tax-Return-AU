@@ -567,3 +567,48 @@ input[type="number"] {
     }
 
 }
+
+@media (max-width: 600px) {
+    .hero-titulos h1 {
+        font-size: 25px;
+    }
+    
+    .hero-titulos h2 {
+        font-size: 20px;
+    }
+    
+    .hero-titulos .h1 {
+        font-size: 35px;
+    }
+    
+    .hero-titulos .h2 {
+        font-size: 25px;
+    }
+
+    .text2 {
+        display: none;
+        transition: .2s ;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .direccion {
+        display: none;
+    }
+
+    .slider-box2 {
+        display: none;
+    }
+
+    #slider {
+        overflow: visible;
+    }
+
+    .nav-menu {
+        display: none;
+        transition: .2s;
+    }
+
+}

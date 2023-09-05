@@ -115,7 +115,7 @@ body {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: url(/img/fondo.jpg) no-repeat center/cover;
+    background: url("../img/fondo.jpg") no-repeat center/cover;
     position: relative;
     display: flex;
     /* grid-template-columns: repeat(2, 1fr); */
@@ -520,12 +520,15 @@ input[type="number"] {
 
 }
 
-@media (max-width: 877px) {
+@media (max-width: 942px) {
     .nav-menu a {
         margin-left: 18px;
-
     }
 
+    .text {
+        width: 500px;
+        transition: .2s;
+    }
 }
 
 @media (max-width: 787px) {
@@ -552,6 +555,15 @@ input[type="number"] {
     .text2 {
         display: none;
         transition: .2s ;
+    }
+
+    .text {
+        width: 400px;
+        transition: .2s;
+    }
+
+    i {
+        color: black;
     }
 
 }

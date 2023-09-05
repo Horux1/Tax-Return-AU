@@ -606,9 +606,23 @@ input[type="number"] {
         overflow: visible;
     }
 
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .nav-menu {
         display: none;
         transition: .2s;
+    }
+
+}
+
+@media (max-width: 408px) {
+
+    .logo {
+        font-size: 25px ;
     }
 
 }
